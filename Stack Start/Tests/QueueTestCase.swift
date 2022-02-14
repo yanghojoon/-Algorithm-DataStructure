@@ -10,11 +10,16 @@ import XCTest
 
 class QueueTestCase: XCTestCase {
     var queueArray = QueueArray<String>()
+    var queueStack = QueueStack<String>()
 
     override func setUp() {
         queueArray.enqueue("Pusheen")
         queueArray.enqueue("Keyboard Cat")
         queueArray.enqueue("Lil Bub")
+        
+        queueStack.enqueue("1")
+        queueStack.enqueue("2")
+        queueStack.enqueue("3")
     }
     
     func test_enqueueArray() {
@@ -22,7 +27,7 @@ class QueueTestCase: XCTestCase {
     }
     
     func test_enqueueStack() {
-        
+        XCTAssertEqual(queueStack.peek, "1")
     }
     
     func test_dequeueArray() {
@@ -34,6 +39,10 @@ class QueueTestCase: XCTestCase {
     }
     
     func test_dequeueStack() {
-        
+        queueStack.dequeue()
+        queueStack.dequeue()
+        XCTAssertEqual(queueStack.peek, "3")
+        queueStack.dequeue()
+        XCTAssertTrue(queueStack.isEmpty)
     }
 }
