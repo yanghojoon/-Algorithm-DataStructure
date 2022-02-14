@@ -24,6 +24,8 @@
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
+		DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433127BA8B2800A6B21E /* Queue.swift */; };
+		DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,8 @@
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
+		DE9E433127BA8B2800A6B21E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABC822D21E86A5A0008D749 /* Stack.swift */,
+				DE9E433127BA8B2800A6B21E /* Queue.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABC822F21E86AB20008D749 /* StackTestCase.swift */,
+				DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */,
 				DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */,
 			);
 			path = Tests;
@@ -194,6 +200,7 @@
 			buildActionMask = 0;
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
+				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 			files = (
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
 				DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */,
+				DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
