@@ -27,7 +27,8 @@ final class SortingTestCase: XCTestCase {
   }
   
   func test_insertionSort() {
-
+      insertionSort(&testArray)
+      XCTAssertEqual(testArray, sortedArray)
   }
 }
 
