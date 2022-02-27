@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
+		DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27718027CB09880023ACA2 /* MergeSort.swift */; };
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
 		DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
+		DE27718027CB09880023ACA2 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCase.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				0ABC822D21E86A5A0008D749 /* Stack.swift */,
 				DE9E433127BA8B2800A6B21E /* Queue.swift */,
 				DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */,
+				DE27718027CB09880023ACA2 /* MergeSort.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -210,6 +213,7 @@
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
+				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

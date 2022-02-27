@@ -23,7 +23,7 @@ func bubbleSort<Element: Comparable>(_ array: inout [Element]) {
         }
         
         if !isSwapped {
-            return // 바뀐 것이 없다면 함수 종료함. 
+            return // 바뀐 것이 없다면 함수 종료함. -> 얘 때문에 바뀐게 없다면 O(n) 시간 복잡도
         }
     }
 }
