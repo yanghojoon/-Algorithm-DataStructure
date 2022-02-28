@@ -27,6 +27,7 @@
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
 		DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
+		DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */; };
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
 		DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433127BA8B2800A6B21E /* Queue.swift */; };
 		DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */; };
@@ -58,6 +59,7 @@
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCase.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
+		DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfMovesToSeatEveryone.swift; sourceTree = "<group>"; };
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
 		DE9E433127BA8B2800A6B21E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
@@ -85,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE39671927CB339C00896E4B /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				DE94B9C827CD1B4F00CA4517 /* Sorting */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		DE94B9C827CD1B4F00CA4517 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 		OBJ_11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
+				DE39671927CB339C00896E4B /* LeetCode */,
 				OBJ_7 /* Sources */,
 				OBJ_9 /* Tests */,
 				OBJ_11 /* Products */,
@@ -212,6 +231,7 @@
 			buildActionMask = 0;
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
+				DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
