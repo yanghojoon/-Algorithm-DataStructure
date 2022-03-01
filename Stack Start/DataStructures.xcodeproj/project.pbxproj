@@ -28,6 +28,7 @@
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
 		DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */; };
 		DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */; };
+		DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
 		DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */; };
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
@@ -62,6 +63,7 @@
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCase.swift; sourceTree = "<group>"; };
 		DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTargetIndicesAfterSortingArray .swift"; sourceTree = "<group>"; };
+		DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPartition1.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
 		DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfMovesToSeatEveryone.swift; sourceTree = "<group>"; };
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */,
 				DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */,
 				DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */,
+				DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
 				DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */,
+				DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
