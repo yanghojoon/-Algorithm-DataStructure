@@ -1,10 +1,3 @@
-//
-//  QueueTestCase.swift
-//  DataStructuresTests
-//
-//  Created by 양호준 on 2022/02/14.
-//
-
 import XCTest
 @testable import DataStructures
 

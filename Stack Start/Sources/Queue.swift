@@ -1,11 +1,5 @@
-//
-//  Queue.swift
-//  DataStructures
-//
-//  Created by 양호준 on 2022/02/14.
-//
-
 import Foundation
+
 
 protocol Queue {
     associatedtype Element // Element가 다른 타입이 될 수 있기 때문에 Associated Type 사용

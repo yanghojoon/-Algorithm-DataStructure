@@ -1,14 +1,8 @@
-//
-//  MergeSort.swift
-//  DataStructures
-//
-//  Created by 양호준 on 2022/02/27.
-//
-
 import Foundation
 
+
 func mergeSort<Element: Comparable>(_ array: [Element]) -> [Element] {
-    guard array.count > 1 else {
+    guard array.count > 1 else { // 어쩌피 정렬할 필요가 없다. 
         return array
     }
     
@@ -24,7 +18,7 @@ func merge<Element: Comparable>(_ left: [Element], _ right: [Element]) -> [Eleme
     var rightIndex = 0
     var result: [Element] = []
     
-    while leftIndex < left.count && rightIndex < right.count {
+    while leftIndex < left.count && rightIndex < right.count { // 끝까지 돌린다.
         let leftElement = left[leftIndex]
         let rightElement = right[rightIndex]
         

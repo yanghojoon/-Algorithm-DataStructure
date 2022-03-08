@@ -27,6 +27,9 @@
 		DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */; };
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
 		DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */; };
+		DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AC27D734B400D243FA /* BinaryTree.swift */; };
+		DE4513AF27D735EE00D243FA /* BinaryTreeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */; };
+		DE4513B027D7360600D243FA /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AC27D734B400D243FA /* BinaryTree.swift */; };
 		DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */; };
 		DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
@@ -62,6 +65,8 @@
 		DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductDifferenceBetweenTwoPairs.swift; sourceTree = "<group>"; };
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCase.swift; sourceTree = "<group>"; };
+		DE4513AC27D734B400D243FA /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTestCase.swift; sourceTree = "<group>"; };
 		DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTargetIndicesAfterSortingArray .swift"; sourceTree = "<group>"; };
 		DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPartition1.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 				DE9E433127BA8B2800A6B21E /* Queue.swift */,
 				DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */,
 				DE27718027CB09880023ACA2 /* MergeSort.swift */,
+				DE4513AC27D734B400D243FA /* BinaryTree.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -151,6 +157,7 @@
 				DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */,
 				DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */,
 				DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */,
+				DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -244,6 +251,7 @@
 				DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
+				DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
@@ -262,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				DE4513AF27D735EE00D243FA /* BinaryTreeTestCase.swift in Sources */,
+				DE4513B027D7360600D243FA /* BinaryTree.swift in Sources */,
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
 				DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */,
 				DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */,
