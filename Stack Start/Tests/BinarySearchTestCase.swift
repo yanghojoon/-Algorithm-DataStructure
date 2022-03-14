@@ -8,5 +8,11 @@ class BinarySearchTestCase: XCTestCase {
         
         XCTAssertEqual(array.binarySearch(for: 5), 1)
     }
-
+    
+    func test_challenge() {
+        let array = [1, 2, 3, 3, 3, 4, 4, 5, 5]
+        let range = array.findIndicies(of: 3, in: array)
+        
+        XCTAssertEqual(range, 2...4)
+    }
 }
