@@ -37,6 +37,8 @@
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
 		DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433127BA8B2800A6B21E /* Queue.swift */; };
 		DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */; };
+		DED7F50B27DF25E100B0D46A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50A27DF25E100B0D46A /* BinarySearch.swift */; };
+		DED7F50D27DF2BC800B0D46A /* BinarySearchTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,8 @@
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
 		DE9E433127BA8B2800A6B21E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
+		DED7F50A27DF25E100B0D46A /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTestCase.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */,
 				DE27718027CB09880023ACA2 /* MergeSort.swift */,
 				DE4513AC27D734B400D243FA /* BinaryTree.swift */,
+				DED7F50A27DF25E100B0D46A /* BinarySearch.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -158,6 +163,7 @@
 				DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */,
 				DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */,
 				DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */,
+				DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -250,6 +256,7 @@
 				DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */,
 				DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
+				DED7F50B27DF25E100B0D46A /* BinarySearch.swift in Sources */,
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
 				DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
@@ -274,6 +281,7 @@
 				DE4513B027D7360600D243FA /* BinaryTree.swift in Sources */,
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
 				DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */,
+				DED7F50D27DF2BC800B0D46A /* BinarySearchTestCase.swift in Sources */,
 				DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */,
 				DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */,
 				DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */,
