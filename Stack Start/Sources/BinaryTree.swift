@@ -33,4 +33,20 @@ extension BinaryNode {
         rightChild?.traversePostOrder(visit: visit)
         visit(value)
     }
+    
+    // MARK: - Challenge를 위한 Traversal
+    func traversePreOrderForChallenge(visit: (Element?) -> Void) {
+        visit(value)
+        if let leftChild = leftChild {
+            leftChild.traverseInOrder(visit: visit)
+        } else {
+            visit(nil)
+        }
+        
+        if let rightChild = rightChild {
+            rightChild.traverseInOrder(visit: visit)
+        } else {
+            visit(nil)
+        }
+    }
 }

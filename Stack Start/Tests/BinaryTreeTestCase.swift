@@ -2,6 +2,37 @@ import XCTest
 @testable import DataStructures
 
 
+
+// MARK: - Serailize Function
+func serialize<T>(_ node: BinaryNode<T>) -> [T?] {
+    var array: [T?] = []
+    
+    node.traversePreOrderForChallenge { array.append($0) } // O(n)의 시간 복잡도를 가짐
+    
+    return array
+}
+
+// MARK: - Deserialize Function
+func deserialize<T>(_ array: inout [T?]) -> BinaryNode<T>? {
+    guard let value = array.removeLast() else { // 기존 밑에 메서드 없이 removeFirst로 할 경우 O(n^2) 시간 복잡도를 가짐 
+        return nil
+    }
+    
+    let node = BinaryNode(value: value)
+    
+    node.leftChild = deserialize(&array)
+    node.rightChild = deserialize(&array)
+    
+    return node
+}
+
+func deserialize<T>(_ array: [T?]) -> BinaryNode<T>? {
+    var reversed = Array(array.reversed()) // 그래서 배열을 뒤집고
+    
+    return deserialize(&reversed)
+}
+
+
 final class BinaryTreeTestCase: XCTestCase {
     var tree: BinaryNode<Int> = {
         let zero = BinaryNode(value: 0)
@@ -36,5 +67,12 @@ final class BinaryTreeTestCase: XCTestCase {
         var testArray = [Int]()
         tree.traversePostOrder { testArray.append($0) }
         XCTAssertEqual(testArray, [0, 5, 1, 8, 9, 7])
+    }
+    
+    func test_serailize() {
+        let expectedArray = [7, 1, 0, nil, nil, 5, nil, nil, 9, 8, nil, nil, nil]
+        let serializedTree = serialize(tree)
+        
+        XCTAssertEqual(expectedArray, serializedTree)
     }
 }
