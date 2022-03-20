@@ -27,6 +27,7 @@
 		DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */; };
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
 		DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */; };
+		DE44547827E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE44547727E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */; };
 		DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AC27D734B400D243FA /* BinaryTree.swift */; };
 		DE4513AF27D735EE00D243FA /* BinaryTreeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */; };
 		DE4513B027D7360600D243FA /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4513AC27D734B400D243FA /* BinaryTree.swift */; };
@@ -67,6 +68,7 @@
 		DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductDifferenceBetweenTwoPairs.swift; sourceTree = "<group>"; };
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
 		DE3DF77F27BF3CE3003D8CB3 /* SortingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCase.swift; sourceTree = "<group>"; };
+		DE44547727E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegativeNumbersInASortedMatrix.swift; sourceTree = "<group>"; };
 		DE4513AC27D734B400D243FA /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTestCase.swift; sourceTree = "<group>"; };
 		DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTargetIndicesAfterSortingArray .swift"; sourceTree = "<group>"; };
@@ -105,9 +107,18 @@
 		DE39671927CB339C00896E4B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DE44547627E7704900D13EF5 /* Binary Search */,
 				DE94B9C827CD1B4F00CA4517 /* Sorting */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		DE44547627E7704900D13EF5 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				DE44547727E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */,
+			);
+			path = "Binary Search";
 			sourceTree = "<group>";
 		};
 		DE94B9C827CD1B4F00CA4517 /* Sorting */ = {
@@ -257,6 +268,7 @@
 				DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */,
 				DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */,
 				DED7F50B27DF25E100B0D46A /* BinarySearch.swift in Sources */,
+				DE44547827E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift in Sources */,
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
 				DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
