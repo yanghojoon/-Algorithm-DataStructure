@@ -3,8 +3,7 @@ import Foundation
 
 class SolutionBinarySearchA {
     func countNegatives(_ grid: [[Int]]) -> Int {
-        var changedGrid = grid // 변경할 수 있도록 변수로 바꿔주고
-        var flattedGrid = changedGrid.flatMap { $0 } // 2차원 배열 풀기 위해 flatmap 써주고
+        let flattedGrid = grid.flatMap { $0 } // 2차원 배열 풀기 위해 flatmap 써주고
         let sortedGrid = flattedGrid.sorted() // 정렬을 해준다.
         
         for (index, element) in sortedGrid.enumerated() { // 그리고 index, element를 빼주기 위해 enumerated() 메서드 사용
@@ -18,7 +17,6 @@ class SolutionBinarySearchA {
         return 0 // 반복문 다 돌았는데도 위 리턴을 안타면 음수가 없는거라 0 반환 사실 음수없는지 확인하는 가장 좋은 방법은 정렬 후 [0]이 음수가 아닌지 확인하는게... 가장 좋을 것 같다.
     }
 }
-
 
 //func countNegatives(_ grid: [[Int]]) -> Int {
 //    var changedGrid = grid

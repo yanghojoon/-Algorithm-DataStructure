@@ -38,6 +38,7 @@
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
 		DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433127BA8B2800A6B21E /* Queue.swift */; };
 		DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */; };
+		DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAE81AF27E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift */; };
 		DED7F50B27DF25E100B0D46A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50A27DF25E100B0D46A /* BinarySearch.swift */; };
 		DED7F50D27DF2BC800B0D46A /* BinarySearchTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
@@ -78,6 +79,7 @@
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
 		DE9E433127BA8B2800A6B21E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DE9E433327BA8DC200A6B21E /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
+		DEAE81AF27E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKWeakestRowsInAMatrix.swift; sourceTree = "<group>"; };
 		DED7F50A27DF25E100B0D46A /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTestCase.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DE44547727E7707700D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */,
+				DEAE81AF27E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
 				DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
+				DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
 			);
