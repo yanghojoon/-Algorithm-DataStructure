@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
+		DE01D13527EA1B0F00F611CB /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE01D13427EA1B0F00F611CB /* RangeSumOfBST.swift */; };
 		DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27718027CB09880023ACA2 /* MergeSort.swift */; };
 		DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */; };
 		DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
+		DE01D13427EA1B0F00F611CB /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
 		DE27718027CB09880023ACA2 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		DE318E0927CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductDifferenceBetweenTwoPairs.swift; sourceTree = "<group>"; };
 		DE3DF77D27BF39DA003D8CB3 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
@@ -106,9 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE01D13327EA1B0100F611CB /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				DE01D13427EA1B0F00F611CB /* RangeSumOfBST.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		DE39671927CB339C00896E4B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DE01D13327EA1B0100F611CB /* Tree */,
 				DE44547627E7704900D13EF5 /* Binary Search */,
 				DE94B9C827CD1B4F00CA4517 /* Sorting */,
 			);
@@ -275,6 +286,7 @@
 				DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */,
 				DE4513AD27D734B400D243FA /* BinaryTree.swift in Sources */,
 				DE27718127CB09880023ACA2 /* MergeSort.swift in Sources */,
+				DE01D13527EA1B0F00F611CB /* RangeSumOfBST.swift in Sources */,
 				DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
