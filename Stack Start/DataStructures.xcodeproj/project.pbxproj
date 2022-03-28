@@ -39,6 +39,7 @@
 		DE9353CA27F2084000D3A172 /* HeapTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C927F2084000D3A172 /* HeapTestCase.swift */; };
 		DE9353CD27F20BE100D3A172 /* MaximumProductOfTwoElementsInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353CC27F20BE100D3A172 /* MaximumProductOfTwoElementsInAnArray.swift */; };
 		DE9353CF27F2101800D3A172 /* LastStoneWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353CE27F2101800D3A172 /* LastStoneWeight.swift */; };
+		DE9353D127F2120700D3A172 /* RelativeRanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353D027F2120600D3A172 /* RelativeRanks.swift */; };
 		DE94B9CA27CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */; };
 		DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */; };
 		DE9E433227BA8B2800A6B21E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9E433127BA8B2800A6B21E /* Queue.swift */; };
@@ -85,6 +86,7 @@
 		DE9353C927F2084000D3A172 /* HeapTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTestCase.swift; sourceTree = "<group>"; };
 		DE9353CC27F20BE100D3A172 /* MaximumProductOfTwoElementsInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfTwoElementsInAnArray.swift; sourceTree = "<group>"; };
 		DE9353CE27F2101800D3A172 /* LastStoneWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStoneWeight.swift; sourceTree = "<group>"; };
+		DE9353D027F2120600D3A172 /* RelativeRanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeRanks.swift; sourceTree = "<group>"; };
 		DE94B9C927CD1B5F00CA4517 /* MinimumNumberOfMovesToSeatEveryone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfMovesToSeatEveryone.swift; sourceTree = "<group>"; };
 		DE9E432F27BA854800A6B21E /* ChallengeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCase.swift; sourceTree = "<group>"; };
 		DE9E433127BA8B2800A6B21E /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				DE9353CC27F20BE100D3A172 /* MaximumProductOfTwoElementsInAnArray.swift */,
 				DE9353CE27F2101800D3A172 /* LastStoneWeight.swift */,
+				DE9353D027F2120600D3A172 /* RelativeRanks.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
+				DE9353D127F2120700D3A172 /* RelativeRanks.swift in Sources */,
 				DE9353C627F2026F00D3A172 /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
