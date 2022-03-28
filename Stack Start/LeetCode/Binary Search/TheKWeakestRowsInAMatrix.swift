@@ -18,7 +18,7 @@ class SolutionBinarySearchB {
             } else {
                 counts.append(0) // 만약 1이 없을 경우 0을 바로 넣어준다.
             }
-        }
+        } // 요소 다 합치면 1의 갯수!!
 
         // 정렬해서 가장 첫 index
         var originCounts = counts // [2, 4, 1, 2, 5] // 기존 counts를 모아두기 위해 밑에 둠.
@@ -33,3 +33,6 @@ class SolutionBinarySearchB {
         return Array(result[0..<k]) // subscript들을 다시 Array로 변환해 반환
     }
 }
+
+
+// 배열은 순서를 가지고 있고 Dictionary는 순서가 없다.
