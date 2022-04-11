@@ -47,6 +47,7 @@
 		DE47D478280320C000082AEB /* ArrangeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D477280320C000082AEB /* ArrangeNumber.swift */; };
 		DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */; };
 		DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */; };
+		DE6DF1992803BA43009CCD4C /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
 		DE9353C627F2026F00D3A172 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C527F2026F00D3A172 /* Heap.swift */; };
 		DE9353CA27F2084000D3A172 /* HeapTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C927F2084000D3A172 /* HeapTestCase.swift */; };
@@ -127,6 +128,7 @@
 		DE47D4912803211900082AEB /* MaximumNumberOfWordsFoundInSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentence.swift; sourceTree = "<group>"; };
 		DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTargetIndicesAfterSortingArray .swift"; sourceTree = "<group>"; };
 		DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPartition1.swift; sourceTree = "<group>"; };
+		DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
 		DE9353C527F2026F00D3A172 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		DE9353C927F2084000D3A172 /* HeapTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTestCase.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				DE47D48C2803211900082AEB /* Array */,
+				DE6DF1972803B9BC009CCD4C /* Graph */,
 				DE47D4862803211500082AEB /* LinkedList */,
 				DE47D4802803210700082AEB /* Stack */,
 				DE47D47A2803210000082AEB /* Queue */,
@@ -269,6 +272,14 @@
 				DE47D4912803211900082AEB /* MaximumNumberOfWordsFoundInSentence.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		DE6DF1972803B9BC009CCD4C /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 		DE9353CB27F20BBF00D3A172 /* Heap */ = {
@@ -451,6 +462,7 @@
 				DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
+				DE6DF1992803BA43009CCD4C /* FindCenterOfStarGraph.swift in Sources */,
 				DE47D470280320AE00082AEB /* GCDLCM.swift in Sources */,
 				DE47D46A2803209F00082AEB /* HashadNumber.swift in Sources */,
 				DE47D4682803209A00082AEB /* hidePhoneNumber.swift in Sources */,
