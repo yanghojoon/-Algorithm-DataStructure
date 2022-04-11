@@ -5,8 +5,8 @@ protocol Graph {
     
     associatedtype Element
     
-    typealias Edge = GraphEdge<Element>
-    typealias Vertex = Edge.Vertex
+    typealias Edge = GraphEdge<Element> // 연결된 선
+    typealias Vertex = Edge.Vertex // 연결될 요소 하나
     
     var vertices: [Vertex] { get }
     
@@ -31,9 +31,9 @@ struct GraphEdge<Element> {
     
     typealias Vertex = GraphVertex<Element>
     
-    let source: Vertex
-    let destination: Vertex
-    let weight: Double
+    let source: Vertex // 출발지
+    let destination: Vertex // 도착지
+    let weight: Double // 비용 -> 선 사이에 적힌 값.
     
 }
 

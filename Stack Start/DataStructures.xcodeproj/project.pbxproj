@@ -48,6 +48,8 @@
 		DE47D71427CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */; };
 		DE47D71827CDC6D200E727F3 /* ArrayPartition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */; };
 		DE6DF1992803BA43009CCD4C /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */; };
+		DE6DF1A3280451FB009CCD4C /* AdjancencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF1A2280451FB009CCD4C /* AdjancencyList.swift */; };
+		DE6DF1A528045213009CCD4C /* AdjacencyListTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF1A428045213009CCD4C /* AdjacencyListTestCase.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
 		DE9353C627F2026F00D3A172 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C527F2026F00D3A172 /* Heap.swift */; };
 		DE9353CA27F2084000D3A172 /* HeapTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C927F2084000D3A172 /* HeapTestCase.swift */; };
@@ -129,6 +131,8 @@
 		DE47D71327CDC34600E727F3 /* FindTargetIndicesAfterSortingArray .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FindTargetIndicesAfterSortingArray .swift"; sourceTree = "<group>"; };
 		DE47D71727CDC6D200E727F3 /* ArrayPartition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPartition1.swift; sourceTree = "<group>"; };
 		DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
+		DE6DF1A2280451FB009CCD4C /* AdjancencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjancencyList.swift; sourceTree = "<group>"; };
+		DE6DF1A428045213009CCD4C /* AdjacencyListTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyListTestCase.swift; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
 		DE9353C527F2026F00D3A172 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		DE9353C927F2084000D3A172 /* HeapTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTestCase.swift; sourceTree = "<group>"; };
@@ -335,6 +339,7 @@
 				DED7F50A27DF25E100B0D46A /* BinarySearch.swift */,
 				DE9353C527F2026F00D3A172 /* Heap.swift */,
 				DE47D45E28031DAE00082AEB /* Graph.swift */,
+				DE6DF1A2280451FB009CCD4C /* AdjancencyList.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -350,6 +355,7 @@
 				DE4513AE27D735EE00D243FA /* BinaryTreeTestCase.swift */,
 				DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */,
 				DE9353C927F2084000D3A172 /* HeapTestCase.swift */,
+				DE6DF1A428045213009CCD4C /* AdjacencyListTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -465,6 +471,7 @@
 				DE6DF1992803BA43009CCD4C /* FindCenterOfStarGraph.swift in Sources */,
 				DE47D470280320AE00082AEB /* GCDLCM.swift in Sources */,
 				DE47D46A2803209F00082AEB /* HashadNumber.swift in Sources */,
+				DE6DF1A3280451FB009CCD4C /* AdjancencyList.swift in Sources */,
 				DE47D4682803209A00082AEB /* hidePhoneNumber.swift in Sources */,
 				DE9353D127F2120700D3A172 /* RelativeRanks.swift in Sources */,
 				DE9353C627F2026F00D3A172 /* Heap.swift in Sources */,
@@ -490,6 +497,7 @@
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
 				DE9E433027BA854800A6B21E /* ChallengeTestCase.swift in Sources */,
 				DED7F50D27DF2BC800B0D46A /* BinarySearchTestCase.swift in Sources */,
+				DE6DF1A528045213009CCD4C /* AdjacencyListTestCase.swift in Sources */,
 				DE3DF78027BF3CE3003D8CB3 /* SortingTestCase.swift in Sources */,
 				DE9E433427BA8DC200A6B21E /* QueueTestCase.swift in Sources */,
 				DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */,
