@@ -2,6 +2,7 @@ import Foundation
 
 
 func solutionKakaoA(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
+    // FIXME: - 시간초과로 테스트 2개 통과 못함
     let nonOverlapReport = Array(Set(report)) // 중복 신고를 Set을 통해 제거
     let split = nonOverlapReport.map { $0.components(separatedBy: " ") } // 일단 신고자와 신고 당한 사람을 [String]형태로 분리
     var accusingInfo = [String: [String]]()
