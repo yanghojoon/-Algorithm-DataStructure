@@ -65,6 +65,7 @@
 		DED7F50B27DF25E100B0D46A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50A27DF25E100B0D46A /* BinarySearch.swift */; };
 		DED7F50D27DF2BC800B0D46A /* BinarySearchTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */; };
 		DEDBFC55280931A500B5D1E4 /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDBFC54280931A400B5D1E4 /* FindTheTownJudge.swift */; };
+		DEDBFC572809445700B5D1E4 /* FindIfPathExistsInGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDBFC562809445700B5D1E4 /* FindIfPathExistsInGraph.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -150,6 +151,7 @@
 		DED7F50A27DF25E100B0D46A /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		DED7F50C27DF2BC800B0D46A /* BinarySearchTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTestCase.swift; sourceTree = "<group>"; };
 		DEDBFC54280931A400B5D1E4 /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
+		DEDBFC562809445700B5D1E4 /* FindIfPathExistsInGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIfPathExistsInGraph.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				DE6DF1982803BA43009CCD4C /* FindCenterOfStarGraph.swift */,
+				DEDBFC562809445700B5D1E4 /* FindIfPathExistsInGraph.swift */,
 				DEDBFC54280931A400B5D1E4 /* FindTheTownJudge.swift */,
 			);
 			path = Graph;
@@ -474,6 +477,7 @@
 				DE01D13527EA1B0F00F611CB /* RangeSumOfBST.swift in Sources */,
 				DEAE81B027E8B8F600667AFA /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				DE318E0A27CD1F6B00C78F0A /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */,
+				DEDBFC572809445700B5D1E4 /* FindIfPathExistsInGraph.swift in Sources */,
 				DE3DF77E27BF39DA003D8CB3 /* SortingAlgorithms.swift in Sources */,
 				DE6DF1992803BA43009CCD4C /* FindCenterOfStarGraph.swift in Sources */,
 				DE47D470280320AE00082AEB /* GCDLCM.swift in Sources */,
