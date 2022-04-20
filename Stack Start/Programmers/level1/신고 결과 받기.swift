@@ -2,46 +2,65 @@ import Foundation
 
 
 func solutionKakaoA(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
-    // FIXME: - 시간초과로 테스트 2개 통과 못함
     let nonOverlapReport = Array(Set(report)) // 중복 신고를 Set을 통해 제거
-    let split = nonOverlapReport.map { $0.components(separatedBy: " ") } // 일단 신고자와 신고 당한 사람을 [String]형태로 분리
-    var accusingInfo = [String: [String]]()
-    var accusedCount = [String: Int]()
-    var blackList = [String]()
-    var result = [Int]()
- 
-    // 분리한 이차원배열을 토대로 신고자와 신고 당한 사람의 dictonary를 생성 [신고한 사람: [신고 당한 사람 리스트]]
+    let split = nonOverlapReport.map { $0.components(separatedBy: " ") } // 일단 신고자와 신고 당한 사람을 [[String]]형태로 분리
+    var accusingInfo = [String: [String]]() // [신고당한 사람: [신고한 사람]]
+    
     split.forEach { info in
-        accusingInfo[info[0], default: []].append(info[1])
+        let reporting = info[0] // 신고자
+        let reported = info[1] // 신고 당한 사람
+        
+        accusingInfo[reported, default: []].append(reporting)
     }
     
-    // [신고당한 사람: 횟수]로 딕셔너리 생성
-    accusingInfo.forEach { (_, list) in
-        list.forEach { person in
-            accusedCount[person, default: 0] += 1
-        }
-    }
-    // 기준 이상 신고당한 사람을 블랙리스트로 생성
-    accusedCount.forEach { (person, count) in
-        if count >= k {
-            blackList.append(person)
-        }
-    }
+    let blackList = accusingInfo.filter { $0.value.count >= k } // 신고한 사람 수가 k이상인 것만 필터
+    let reportingList = blackList.values.flatMap { $0 } // 블랙리스트 신고한 사람 명단
     
-    id_list.forEach { person in
-        var count = 0
-        let list = accusingInfo[person] ?? []
-        blackList.forEach { criminal in
-            if list.contains(criminal) {
-                count += 1
-            }
-        }
-                        
-        result.append(count)
-    }
+    var mailCount = [String: Int]()
+    reportingList.forEach { mailCount[$0, default: 0] += 1 }
     
+    return id_list.map { mailCount[$0, default: 0] }
     
-    return result
+    // FIXME: - 시간초과로 테스트 2개 통과 못함
+//    let nonOverlapReport = Array(Set(report)) // 중복 신고를 Set을 통해 제거
+//    let split = nonOverlapReport.map { $0.components(separatedBy: " ") } // 일단 신고자와 신고 당한 사람을 [String]형태로 분리
+//    var accusingInfo = [String: [String]]()
+//    var accusedCount = [String: Int]()
+//    var blackList = [String]()
+//    var result = [Int]()
+//
+//    // 분리한 이차원배열을 토대로 신고자와 신고 당한 사람의 dictonary를 생성 [신고한 사람: [신고 당한 사람 리스트]]
+//    split.forEach { info in
+//        accusingInfo[info[0], default: []].append(info[1])
+//    }
+//
+//    // [신고당한 사람: 횟수]로 딕셔너리 생성
+//    accusingInfo.forEach { (_, list) in
+//        list.forEach { person in
+//            accusedCount[person, default: 0] += 1
+//        }
+//    }
+//    // 기준 이상 신고당한 사람을 블랙리스트로 생성
+//    accusedCount.forEach { (person, count) in
+//        if count >= k {
+//            blackList.append(person)
+//        }
+//    }
+//
+//    id_list.forEach { person in
+//        var count = 0
+//        let list = accusingInfo[person] ?? []
+//        blackList.forEach { criminal in
+//            if list.contains(criminal) {
+//                count += 1
+//            }
+//        }
+//
+//        result.append(count)
+//    }
+//
+//
+//    return result
 
     // FIXME: - 실행으로 통과는 되나 제출을 하면 거의 대부분 실패하는 코드
 //    let nonOverlapReport = Set(report)

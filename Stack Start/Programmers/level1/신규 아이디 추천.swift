@@ -16,7 +16,7 @@ func solutionKakaoB(_ new_id:String) -> String {
     while result.contains("..") {
         result = result.replacingOccurrences(of: "..", with: ".")
     }
-    // 4단계
+    // 4단계 // trimmingCharacters로 제거 가능
     if result.count != 0 {
         while result.first == "." {
             result.removeFirst()
@@ -31,7 +31,7 @@ func solutionKakaoB(_ new_id:String) -> String {
         result.append("a")
     }
     // 6단계
-    while result.count > 15 {
+    while result.count > 15 { // prefix로 구할 수도 있다. 
         result.removeLast()
         
         if result.last! == "." {

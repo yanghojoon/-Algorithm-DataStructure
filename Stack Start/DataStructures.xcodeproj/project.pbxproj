@@ -52,6 +52,7 @@
 		DE6DF1A528045213009CCD4C /* AdjacencyListTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DF1A428045213009CCD4C /* AdjacencyListTestCase.swift */; };
 		DE7C0DD928087C3400530243 /* 신고 결과 받기.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C0DD828087C3400530243 /* 신고 결과 받기.swift */; };
 		DE821646280C47D9006E3358 /* 신규 아이디 추천.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE821645280C47D9006E3358 /* 신규 아이디 추천.swift */; };
+		DE8AE6DF280F984C0037D636 /* 다트 게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8AE6DE280F984C0037D636 /* 다트 게임.swift */; };
 		DE8D4AD427BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */; };
 		DE9353C627F2026F00D3A172 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C527F2026F00D3A172 /* Heap.swift */; };
 		DE9353CA27F2084000D3A172 /* HeapTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9353C927F2084000D3A172 /* HeapTestCase.swift */; };
@@ -141,6 +142,7 @@
 		DE6DF1A428045213009CCD4C /* AdjacencyListTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyListTestCase.swift; sourceTree = "<group>"; };
 		DE7C0DD828087C3400530243 /* 신고 결과 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신고 결과 받기.swift"; sourceTree = "<group>"; };
 		DE821645280C47D9006E3358 /* 신규 아이디 추천.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신규 아이디 추천.swift"; sourceTree = "<group>"; };
+		DE8AE6DE280F984C0037D636 /* 다트 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다트 게임.swift"; sourceTree = "<group>"; };
 		DE8D4AD327BBE7A800E5C6A9 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
 		DE9353C527F2026F00D3A172 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		DE9353C927F2084000D3A172 /* HeapTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTestCase.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				DE7C0DD828087C3400530243 /* 신고 결과 받기.swift */,
 				DE821645280C47D9006E3358 /* 신규 아이디 추천.swift */,
 				DED556DF280D7102006918E2 /* 숫자 문자열과 영단어.swift */,
+				DE8AE6DE280F984C0037D636 /* 다트 게임.swift */,
 				DED556E1280D9B00006918E2 /* 부족한 금액 계산하기.swift */,
 			);
 			path = level1;
@@ -496,6 +499,7 @@
 				DE47D46A2803209F00082AEB /* HashadNumber.swift in Sources */,
 				DE6DF1A3280451FB009CCD4C /* AdjancencyList.swift in Sources */,
 				DE47D4682803209A00082AEB /* hidePhoneNumber.swift in Sources */,
+				DE8AE6DF280F984C0037D636 /* 다트 게임.swift in Sources */,
 				DE9353D127F2120700D3A172 /* RelativeRanks.swift in Sources */,
 				DE7C0DD928087C3400530243 /* 신고 결과 받기.swift in Sources */,
 				DE9353C627F2026F00D3A172 /* Heap.swift in Sources */,
