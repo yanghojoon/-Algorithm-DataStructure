@@ -1,6 +1,6 @@
 import Foundation
 
-func solution(_ dartResult:String) -> Int {
+func solutionKakaoD(_ dartResult:String) -> Int {
     let scores = dartResult.split(whereSeparator: { $0.isLetter || ["*", "#"].contains($0) }).compactMap { Int($0 ) }
     let bonusesAndOptions = dartResult.split(whereSeparator: { $0.isNumber } )
     var results = [Int]()
